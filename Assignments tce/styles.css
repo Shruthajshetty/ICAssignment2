@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Background color for the entire page */
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffccff; /* Background color for content containers */
+    border-radius: 8px; /* Rounded corners for content containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for content containers */
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #87c1ff;
+    color: #d68cf3;
+    border-radius: 0; /* Remove rounded corners from the navbar */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Carousel Styles */
+
+.carousel-inner {
+    border-radius: 8px; /* Rounded corners for the carousel */
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Accordion Styles */
+
+.accordion-button {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Button Styles */
+
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Card Styles */
+
+.card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s; /* Smooth card scaling on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up card on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
